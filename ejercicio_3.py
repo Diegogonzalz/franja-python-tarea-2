@@ -14,7 +14,7 @@ def main():
         entrada = 0
         mensaje_1 = calculo(entrada)
         print(mensaje_1)  
-    elif edad <18:
+    elif edad <=18:
         entrada = 3500
         mensaje_2 = calculo(entrada)
         print(mensaje_2)
