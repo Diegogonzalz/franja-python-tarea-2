@@ -10,7 +10,7 @@ def calculo(entrada):
 def main():
     edad = int(input("Cuantos años tienes: "))
 
-    if edad <= 4:
+    if edad < 4:
         entrada = 0
         mensaje_1 = calculo(entrada)
         print(mensaje_1)  
